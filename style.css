@@ -108,16 +108,30 @@
     background-image: url(./bg.jpg);
     background-position: center;
   }
-  .container .img1 {
-position: relative;
-width: 100%;
-top: -316;
- object-fit: fill
-  }
  
- .copyright {
-    position: relative;
-    top: 5;
-    height: 200px;
-    top: -20px;
+
+.container .aboutMe {
+  nav-right: 1000px;
+}
+ 
+.span .container {
+  position: relative; 
+  nav-right: 20px;
+  padding: 30px
+}
+.parent{
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  margin-top: 150;
+}
+  
+#img1{
+  position: absolute;
+  top: 115;
+  left: 60%;
+  width: 100;
+  height 100;
+border-radius: 50px;
 }
