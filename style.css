@@ -137,7 +137,29 @@ ul li:hover {
   }
 }
 
- .container .aboutme {
-   position: relative;
-   left: 50;
- }
+*{
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+  top: 200;
+  left: 40;
+}
+p{
+position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+  top: 170;
+}
+@media all and  (min-width: 1025){
+  p{
+  
+    color: red;
+  }
+}
+  
