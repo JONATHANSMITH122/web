@@ -1,135 +1,98 @@
-<doctype hrml>
-  
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>WEBSTER BOT</title>
-    <link rel="stylesheet" href="style.css">
-
-
-  
   </head>
-  
-
   <body>
+    <header>
+      <div id="brand"><a href="/">WEBSTER BOT</a></div>
+      <nav>
+        <ul>
+          <li><a href="/home">Home</a></li><a href="./faq.html">FAQ</a></li>
+          
+          <li><a href="/about">About</a></li>
+          <li id="login"><a href="./login.html" >Login</a></li>
+          <li id="signup"><a href="/signup">Signup</a></li>
+        </ul>
+      </nav>
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
 
-<img style="width: 950px; height: 950px;" src="https://username.github.io/repo-image_202210998651.png" alt="websterbot.png">
-
-<p>
-  <i>
-  <center>
-  <h1> webster bot</h1>
-  <font size="+2">
-<b>I'm a MD bot from Webster Inc.,<br> who can bring joy to your WA world,<br> with the utmost experience u couldn't<br> or wouldn't have imagined.</b>
-  </font>
-  </i>
-  </center>
-</p>
-<img style="width: 950;" src="https://username.github.io/repo-Screenshot_20221010-234416.jpg" alt="mmm">
-
-<i><center><p>you can join my Whatsapp <br>
-groups</p></center></i>
-
+          <li id="login"><a href="#" >whatsapp group</a></li>
+          <li id="signup"><a href="faq.html">faq</a></li>
+        </ul>
+      </div>
+    </header>
+    <script src="index.js"></script>
+ 
+ 
+  
+<img style="width: 360px; height: 360px;" src="websterbot.png" alt="websterbot.png">
 
 <style>
-.button {
-  position: relative;
-  background-color: #4CAF50;
-  border: none;
-  font-size: 28px;
-  color: #FFFFFF;
-  padding: 20px;
-  width: 200px;
-  text-align: center;
-transition-duration: 0.4s;
-  text-decoration: none;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.button:after {
-  content: "";
-  background: #f1f1f1;
-  display: block;
-  position: absolute;
-  padding-top: 300%;
-  padding-left: 350%;
-  margin-left: -20px !important;
-  margin-top: -120%;
-  opacity: 0;
-  transition: all 0.8s
-}
-
-.button:active:after {
-  padding: 0;
-  margin: 0;
-  opacity: 1;
-  transition: 0s
-}
+  .aboutbot {
+    position: relative;
+    width: 360px;
+    height: 30px;
+    background-color: peru;
+     }
+  .bottext1 {
+    position: relative;
+    font-size: 20px;
+    line-height: 24px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    nav-up: 100px;
+    text-align: center;
+    top: 4;
+  }
 </style>
 
-
-
-<center>
- 
-  <a href="https://chat.whatsapp.com/CD2anhpVpsX1X9NJ63GYWy"><button class="button">Click Me</button></a>
-
-</center>
-
-<img style="width: 950px;" src=" https://username.github.io/repo-PhotoGrid_1_20221010234735.jpg" alt="photogrid">
-<div class="container">
-<p id="game1" class="game1"><i>
-  i have a few games you may like<br>
-  
-  1. gamble<br>
-  
-  here users can play a fun gambling game<br>NOTE: YOU WONT BE USING REAL MONEY<BR> ITS JUST A GAME.<br>
-  how to play this game?
-  <br>
-  firstly,<br>
-  :gamble (amount) l/r<br>
-  this is how we gamble with bot, 
-  <br> you cannot gamble more than <br> 
-   what is in your wallet.<br>
-  :daily 
-  bot will automatically give you $500
-  
+<div class="aboutbot">
+  <p class="bottext1">WEBSTER BOT</p>
 </div>
-<div class="container">
- <p class="game2">
-   <b>
-   2. pokegame <br> 
-   this game is for people who watches<br>pokemon, trust me.
-   <br>
-  <br>the bot will send a pokemon <br>
-  and you type :catch (pokemon_name)<br>
-  then type :dex to see all your<br> pokemons
-  </b>
-    
-  </p>
-</div>
-  </i></p>
-
-<divgame3 class="container">
-  <p class="game3" id="game3">
-  <b>
-    3.charagame game<br>
-    simple game what you do is <br>
-    when the bot send a character<br>
-    you just type :guess (character_name)<br> 
-  <br>
-  <br>
-  
-  <center>
-    WEBSTER.INC
-  </center>
-    <b>
+<style>
+.mydiv {
+  position: relative;
+  width: 360px;
+  height: 400px;
+  background-color: white;
+  }
+.mytext {
+  position: relative;
+  font-size: 14px;
+  line-height: 24px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  nav-up: 100px;
+  text-align: left;
+}
+  </style>
+<div  class="mydiv">
+  <p class="mytext" style="top: -5">
+  Bots on Whatsapp, the most popular massaging platform, are helpful artificial intelligence that can perform several useful tasks on your whatsapp  automatically. That includes welcoming any new members, removing troublemakers, and moderating the discussion. Some bots
+  even add music or games to your group.
+ Bots provided by webster.inc  make your group easier to manage and also increase the users' interest through their various features. Here is a list of the 10 most recommended features on Whatsapp bot  that you can use to make your group  functional and attractive.
+ <br>
+ <br>
+ 1. pokegame 
+ 2. casino 
+ 3. charagame 
+ 4. mp3 download 
+ 5. mp4 download 
+ 6. ytsearch
+ 7. haiagusha
+ 9. tik toc toe
+ 10. truth or dare
 </p>
 </div>
 
-<center>
-<a href="./faq.html"><button class="button-53" role="button">FAQ</button></a>
-</center>
 
-
-  </body>
-  
-  
+</body>
+</html>
