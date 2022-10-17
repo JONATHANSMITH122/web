@@ -3,7 +3,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="script" href="script.js">
     <link rel="stylesheet" href="style.css" />
+   <script src="https://kit.fontawesome.com/a1aa3ebf0f.js" crossorigin="anonymous"></script>
     <title>WEBSTER BOT</title>
   </head>
   <body>
@@ -33,7 +35,7 @@
  
  
   
-<img style="width: 360px; height: 360px;" src="./docs/assets/image_202210998651.png" alt="websterbot.png">
+<img style="width: 360px; height: 360px;" src="websterbot.png" alt="websterbot.png">
 
 <style>
   .aboutbot {
@@ -93,6 +95,76 @@
 </p>
 </div>
 
+<script>
+  const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+
+
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})
+
+</script>
+
+<div id="instagram">
+  <a href="https://www.instagram.com/jonathan._coder/"><i class="fa-brands fa-instagram"></i></a>
+ <a href="tiktok.com/@jonathan._coder"> <i class="fa-brands fa-tiktok"></i></a>
+ <i class="fa-brands fa-whatsapp"></i>
+ <h6>join our Whatsapp group.</h6>
+  <p>©webster.inc</p>
+</div>
+
+
+
+
+<style>
+#instagram  {
+  width: 360px;
+  height: 150px;
+  background-color: darkgray;
+}
+#instagram p {
+  position: relative;
+  top: 30%;
+  right: 5;
+  color: grey;
+  
+  
+}
+
+#instagram .fa-instagram {
+  position: relative;
+  right: -60px;
+  color: black;
+  top: 5;
+  font-size: 50px;
+}
+
+#instagram .fa-tiktok {
+  position: relative;
+  color: black;
+  right: -90px;
+  font-size: 50px;
+  top: 5;
+  border-box
+}
+
+#instagram .fa-whatsapp {
+position: relative;
+color: black;
+font-size: 50px;
+top: 5;
+right: -120px;
+}
+
+#instagram h6 {
+  position: relative;
+  color: grey;
+  top: 30;
+  text-align: center;
+}
+</style>
 
 </body>
 </html>
